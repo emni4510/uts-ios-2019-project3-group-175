@@ -20,6 +20,7 @@ depends-top-level:
 - !private "=="
 - "AssignmentPrecedence"
 - !private "Auth"
+- "Bool"
 - !private "BooleanLiteralType"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
@@ -41,6 +42,7 @@ depends-member:
 - !private ["SK", "init"]
 - !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "endEditing"]
 - !private ["So15CALayerDelegateP", "isHidden"]
 - !private ["So15CALayerDelegateP", "selectedSegmentIndex"]
 - !private ["So15CALayerDelegateP", "text"]
@@ -53,6 +55,7 @@ depends-member:
 - !private ["s7CVarArgP", "auth"]
 - !private ["s7CVarArgP", "createUser"]
 - !private ["s7CVarArgP", "emailTextField"]
+- !private ["s7CVarArgP", "endEditing"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "instantiateViewController"]
@@ -68,6 +71,7 @@ depends-member:
 - !private ["s7CVarArgP", "signupView"]
 - !private ["s7CVarArgP", "storyboard"]
 - !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
 - !private ["Sl", "init"]
 - !private ["Sl", "init"]
 - !private ["SL", "init"]
@@ -80,6 +84,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "createUser"]
 - !private ["s28CustomDebugStringConvertibleP", "emailTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
@@ -95,10 +100,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "signupView"]
 - !private ["s28CustomDebugStringConvertibleP", "storyboard"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "endEditing"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isHidden"]
@@ -112,6 +119,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "auth"]
 - !private ["s23CustomStringConvertibleP", "createUser"]
 - !private ["s23CustomStringConvertibleP", "emailTextField"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "instantiateViewController"]
@@ -127,12 +135,15 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "signupView"]
 - !private ["s23CustomStringConvertibleP", "storyboard"]
 - !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
 - !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "endEditing"]
 - !private ["Se", "init"]
 - !private ["Se", "init"]
 - !private ["Se", "isHidden"]
 - !private ["Se", "text"]
 - !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "endEditing"]
 - !private ["SE", "init"]
 - !private ["SE", "init"]
 - !private ["SE", "isHidden"]
@@ -148,6 +159,7 @@ depends-member:
 - !private ["SQ", "cancel"]
 - !private ["SQ", "createUser"]
 - !private ["SQ", "emailTextField"]
+- !private ["SQ", "endEditing"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
 - !private ["SQ", "instantiateViewController"]
@@ -163,10 +175,12 @@ depends-member:
 - !private ["SQ", "signupView"]
 - !private ["SQ", "storyboard"]
 - !private ["SQ", "text"]
+- !private ["SQ", "view"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "endEditing"]
 - !private ["s23ExpressibleByNilLiteralP", "isHidden"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
@@ -184,6 +198,7 @@ depends-member:
 - !private ["SH", "cancel"]
 - !private ["SH", "createUser"]
 - !private ["SH", "emailTextField"]
+- !private ["SH", "endEditing"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
 - !private ["SH", "instantiateViewController"]
@@ -199,7 +214,9 @@ depends-member:
 - !private ["SH", "signupView"]
 - !private ["SH", "storyboard"]
 - !private ["SH", "text"]
+- !private ["SH", "view"]
 - !private ["14GroceryHelper219LoginViewControllerC", "Auth"]
+- ["14GroceryHelper219LoginViewControllerC", "Bool"]
 - !private ["14GroceryHelper219LoginViewControllerC", "UIAlertAction"]
 - !private ["14GroceryHelper219LoginViewControllerC", "UIAlertController"]
 - ["14GroceryHelper219LoginViewControllerC", "UISegmentedControl"]
@@ -219,6 +236,8 @@ depends-member:
 - ["14GroceryHelper219LoginViewControllerC", "segmentedControlClicked"]
 - ["14GroceryHelper219LoginViewControllerC", "signupView"]
 - !private ["14GroceryHelper219LoginViewControllerC", "storyboard"]
+- ["14GroceryHelper219LoginViewControllerC", "textFieldShouldReturn"]
+- !private ["14GroceryHelper219LoginViewControllerC", "view"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
@@ -230,6 +249,7 @@ depends-member:
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "emailTextField"]
+- !private ["So8NSCodingP", "endEditing"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isHidden"]
@@ -243,6 +263,7 @@ depends-member:
 - !private ["So8NSCodingP", "signupView"]
 - !private ["So8NSCodingP", "storyboard"]
 - !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
@@ -260,7 +281,9 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "signupView"]
 - !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So8NSObjectC", "Auth"]
+- ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "UIAlertAction"]
 - !private ["So8NSObjectC", "UIAlertController"]
 - ["So8NSObjectC", "UISegmentedControl"]
@@ -271,6 +294,7 @@ depends-member:
 - ["So8NSObjectC", "createAccount"]
 - !private ["So8NSObjectC", "createUser"]
 - ["So8NSObjectC", "emailTextField"]
+- !private ["So8NSObjectC", "endEditing"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "instantiateViewController"]
@@ -289,6 +313,8 @@ depends-member:
 - ["So8NSObjectC", "signupView"]
 - !private ["So8NSObjectC", "storyboard"]
 - !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textFieldShouldReturn"]
+- !private ["So8NSObjectC", "view"]
 - !private ["So8NSObjectP", "Auth"]
 - !private ["So8NSObjectP", "UIAlertAction"]
 - !private ["So8NSObjectP", "UIAlertController"]
@@ -297,6 +323,7 @@ depends-member:
 - !private ["So8NSObjectP", "auth"]
 - !private ["So8NSObjectP", "createUser"]
 - !private ["So8NSObjectP", "emailTextField"]
+- !private ["So8NSObjectP", "endEditing"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "instantiateViewController"]
@@ -312,6 +339,8 @@ depends-member:
 - !private ["So8NSObjectP", "signupView"]
 - !private ["So8NSObjectP", "storyboard"]
 - !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "view"]
+- !private ["Sq", "endEditing"]
 - !private ["Sq", "isHidden"]
 - !private ["Sq", "text"]
 - !private ["Sm", "init"]
@@ -330,12 +359,14 @@ depends-member:
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
 - !private ["So29UIAccessibilityIdentificationP", "isHidden"]
 - !private ["So29UIAccessibilityIdentificationP", "selectedSegmentIndex"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So13UIAlertActionC", "init"]
 - !private ["So17UIAlertControllerC", "addAction"]
 - !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", "endEditing"]
 - !private ["So12UIAppearanceP", "isHidden"]
 - !private ["So12UIAppearanceP", "selectedSegmentIndex"]
 - !private ["So12UIAppearanceP", "text"]
@@ -345,6 +376,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "emailTextField"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "isHidden"]
@@ -358,6 +390,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "signupView"]
 - !private ["So21UIAppearanceContainerP", "storyboard"]
 - !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So18UIContentContainerP", "Auth"]
 - !private ["So18UIContentContainerP", "UIAlertAction"]
 - !private ["So18UIContentContainerP", "UIAlertController"]
@@ -374,12 +407,15 @@ depends-member:
 - !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "signupView"]
 - !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "view"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So9UIControlC", "selectedSegmentIndex"]
 - !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
 - !private ["So17UICoordinateSpaceP", "isHidden"]
 - !private ["So17UICoordinateSpaceP", "selectedSegmentIndex"]
 - !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "endEditing"]
 - !private ["So13UIDynamicItemP", "isHidden"]
 - !private ["So13UIDynamicItemP", "selectedSegmentIndex"]
 - !private ["So13UIDynamicItemP", "text"]
@@ -389,6 +425,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "emailTextField"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "isHidden"]
@@ -402,9 +439,12 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "signupView"]
 - !private ["So18UIFocusEnvironmentP", "storyboard"]
 - !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "endEditing"]
 - !private ["So11UIFocusItemP", "isHidden"]
 - !private ["So11UIFocusItemP", "selectedSegmentIndex"]
 - !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "endEditing"]
 - !private ["So20UIFocusItemContainerP", "isHidden"]
 - !private ["So20UIFocusItemContainerP", "selectedSegmentIndex"]
 - !private ["So20UIFocusItemContainerP", "text"]
@@ -415,6 +455,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "emailTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
@@ -428,7 +469,9 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "signupView"]
 - !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So11UIResponderC", "Auth"]
+- ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "UIAlertAction"]
 - !private ["So11UIResponderC", "UIAlertController"]
 - ["So11UIResponderC", "UISegmentedControl"]
@@ -437,6 +480,7 @@ depends-member:
 - !private ["So11UIResponderC", "addAction"]
 - ["So11UIResponderC", "createAccount"]
 - ["So11UIResponderC", "emailTextField"]
+- !private ["So11UIResponderC", "endEditing"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "isHidden"]
@@ -453,12 +497,15 @@ depends-member:
 - ["So11UIResponderC", "signupView"]
 - !private ["So11UIResponderC", "storyboard"]
 - !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textFieldShouldReturn"]
+- !private ["So11UIResponderC", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "emailTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "isHidden"]
@@ -472,6 +519,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "signupView"]
 - !private ["So30UIResponderStandardEditActionsP", "storyboard"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So18UISegmentedControlC", "selectedSegmentIndex"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
@@ -492,6 +540,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "signupView"]
 - !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "view"]
 - !private ["So12UIStoryboardC", "instantiateViewController"]
 - !private ["So15UITextDraggableP", "text"]
 - !private ["So15UITextDroppableP", "text"]
@@ -505,6 +554,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "emailTextField"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "isHidden"]
@@ -518,12 +568,14 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "signupView"]
 - !private ["So18UITraitEnvironmentP", "storyboard"]
 - !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So23UIUserActivityRestoringP", "Auth"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
 - !private ["So23UIUserActivityRestoringP", "UIAlertController"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "addAction"]
 - !private ["So23UIUserActivityRestoringP", "emailTextField"]
+- !private ["So23UIUserActivityRestoringP", "endEditing"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "isHidden"]
@@ -537,10 +589,13 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "signupView"]
 - !private ["So23UIUserActivityRestoringP", "storyboard"]
 - !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So6UIViewC", "endEditing"]
 - !private ["So6UIViewC", "isHidden"]
 - !private ["So6UIViewC", "selectedSegmentIndex"]
 - !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "Auth"]
+- ["So16UIViewControllerC", "Bool"]
 - !private ["So16UIViewControllerC", "UIAlertAction"]
 - !private ["So16UIViewControllerC", "UIAlertController"]
 - ["So16UIViewControllerC", "UISegmentedControl"]
@@ -563,6 +618,9 @@ depends-member:
 - ["So16UIViewControllerC", "segmentedControlClicked"]
 - ["So16UIViewControllerC", "signupView"]
 - !private ["So16UIViewControllerC", "storyboard"]
+- ["So16UIViewControllerC", "textFieldShouldReturn"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedSegmentIndex"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
@@ -585,6 +643,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "emailTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
@@ -600,7 +659,9 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "signupView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "endEditing"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isHidden"]
@@ -703,65 +764,66 @@ depends-external:
 - "/Applications/Xcode10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Users/user150278/Documents/GroceryHelper2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -773,4 +835,4 @@ depends-external:
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b0b70e9c9fbaf533cb4fbfffe5dea57a"
+interface-hash: "dd9fea8bbd33f448574245724d282f08"
